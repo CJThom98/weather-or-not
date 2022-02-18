@@ -4,7 +4,7 @@ const inputEl = document.querySelector('#searched');
 const fiveDayForecast = document.querySelector('#fiveday');
 const curForecast = document.querySelector('#today');
 
-const apiKey = '8d11ee23127ece86a8e45e07590427e7';
+const apiKey = '815a1877b047df8cec9a76863be0755a';
 
 const getWeather = (city, lat, lon) => {
     const apiUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat=' + lat + '&lon' + lon + '&units=imperial&exclude=minutely,hourly,alerts&appid=' + apiKey;
