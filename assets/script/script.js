@@ -57,6 +57,27 @@ const findCity = (city) => {
         });
 };
 
+const loadCity = () => {
+
+    let location = localStorage.getItem('location');
+
+    if (location === null) {
+        console.log("empty");
+    } else {
+        let locationParse = JSON.parse(location);
+
+        for (let i = 0; i < locationParse.length; i++) {
+            let loadButton = locationParse[i].city;
+            console.log(locationParse[i].city)
+
+            const savedCity = document.createElement('button');
+            savedCity.textContent = loadButton;
+            savedCity.setAttribute('id', 'saveBtn')
+            historyEl.append(savedCity);
+        }
+    }
+}
+
 const searchedCity = (event) => {
     event.preventDefault();
     let city = inputEl.value.trim();
