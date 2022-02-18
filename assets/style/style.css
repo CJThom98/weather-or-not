@@ -55,3 +55,28 @@ main {
     margin-left: 20%;
     background-color: aquamarine;
 }
+
+.today img {
+    width: 15%;
+}
+
+.days-after {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 20%;
+}
+
+.days-after div {
+    display: flex;
+    flex-direction: column;
+    border: #A6F0C6 solid 2px;
+    margin: 5px;
+    width: 20%;
+    border-radius: 15px;
+    background-color: #A98B98;
+}
+
+.days-after div img {
+    width: 15%;
+}
