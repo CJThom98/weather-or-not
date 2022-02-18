@@ -1,0 +1,57 @@
+body {
+    background-color: coral;
+    flex-direction: column;
+    display: flex;
+}
+
+header {
+    background-color: aquamarine;
+    color: cornflowerblue;
+    justify-content: center;
+    -webkit-text-stroke: 1px black;
+    flex-direction: row;
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-area {
+    display: flex;
+    flex-direction: column;
+    border: black solid 2px;
+    border-radius: 15px;
+}
+
+.h1-style,
+.h2-style {
+    text-decoration: underline;
+    align-self: center;
+}
+
+.search-area input {
+    text-align: center;
+    background-color: aquamarine;
+    align-self: center;
+}
+
+.search-area button {
+    background-color: rgb(186, 250, 229);
+    align-self: center;
+    width: 175px;
+}
+
+.today {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    border: #A6F0C6 solid 2px;
+    border-radius: 15px;
+    margin-left: 20%;
+    background-color: aquamarine;
+}
