@@ -98,4 +98,4 @@ function getWeather(city) {
             "</div>"
         );
     });
-};
+}
