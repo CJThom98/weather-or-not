@@ -23,7 +23,7 @@ function getWeather(city) {
 
     var city = document.getElementById("city").value;
 
-    fetch("https://api.openweathermap.org/data/2.5/forecast?&units=imperial&appid=815a1877b047df8cec9a76863be0755a=" + city )
+    fetch("https://api.openweathermap.org/data/2.5/forecast?&units=imperial&appid=82aa2c8af221b40909b689982bed938d=" + city )
 
     .then(function(response) {
         if (response.ok) {
