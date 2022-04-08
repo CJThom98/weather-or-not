@@ -55,6 +55,47 @@ function getWeather(city) {
 
         $("#day1").append(
             "<div class='forecast card col s12 m6'>"
-        )
+            +   "<div class='card-title'>" + moment().add(1, 'days').format('MM/DD/YYYY') + "</div>"
+            +   "<div class='card-text'>" + "Temp: " + json.list[10].main.temp + " °F" + "</div>"
+            +   "<div class='card-text'>" + "Humidity: " + json.list[10].main.humidity + "%" + "</div>"
+            +
+            "</div>"
+        );
+
+        $("#day2").append(
+            "<div class='forecast card col s12 m6'>"
+            +   "<div class='card-title'>" + moment().add(2, 'days').format('MM/DD/YYYY') + "</div>"
+            +   "<div class='card-text'>" + "Temp: " + json.list[18].main.temp + " °F" + "</div>"
+            +   "<div class='card-text'>" + "Humidity: " + json.list[18].main.humidity + "%" + "</div>"
+            +
+            "</div>"
+        );
+
+        $("#day3").append(
+            "<div class='forecast card col s12 m6'>"
+            +   "<div class='card-title'>" + moment().add(3, 'days').format('MM/DD/YYYY') + "</div>"
+            +   "<div class='card-text'>" + "Temp: " + json.list[26].main.temp + " °F" + "</div>"
+            +   "<div class='card-text'>" + "Humidity: " + json.list[26].main.humidity + "%" + "</div>"
+            +
+            "</div>"
+        );
+
+        $("#day4").append(
+            "<div class='forecast card col s12 m6'>"
+            +   "<div class='card-title'>" + moment().add(4, 'days').format('MM/DD/YYYY') + "</div>"
+            +   "<div class='card-text'>" + "Temp: " + json.list[34].main.temp + " °F" + "</div>"
+            +   "<div class='card-text'>" + "Humidity: " + json.list[34].main.humidity + "%" + "</div>"
+            +
+            "</div>"
+        );
+
+        $("#day5").append(
+            "<div class='forecast card col s12 m6'>"
+            +   "<div class='card-title'>" + moment().add(5, 'days').format('MM/DD/YYYY') + "</div>"
+            +   "<div class='card-text'>" + "Temp: " + json.list[39].main.temp + " °F" + "</div>"
+            +   "<div class='card-text'>" + "Humidity: " + json.list[39].main.humidity + "%" + "</div>"
+            +
+            "</div>"
+        );
     });
 };
