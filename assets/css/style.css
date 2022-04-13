@@ -1,5 +1,5 @@
 .hero {
-    background-color:navy;
+    background-color: #157a6e;
     height: 85px;
     padding-top: 15px;
     color: white;
@@ -10,7 +10,7 @@
 
 .card {
     border: none;
-    background-color: lightgray;
+    background-color: #c1cfda;
     margin-left: -15px; 
 }
 
@@ -37,14 +37,14 @@
 }
 
 .btn {
-    background-color: navy;
+    background-color: #157a6e;
     margin-left: -6px;
     margin-top: -5px;
 }
 
 .listGroup {
     margin-left: 103%;;
-    margin-top: -116%;
+    margin-top: -110%;
     border: lightgray;
     border-style: groove;
     padding-bottom: 10px;
