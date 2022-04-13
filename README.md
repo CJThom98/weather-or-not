@@ -1,7 +1,15 @@
 # weather-or-not
 
-## Description
-The purpose of this application is to allow the user to search for a city and find the current weather conditions
+![Main-page](./readmecapture.png)
 
-## Notes
-Application currently is having trouble receiving authorization from API, unable to remedy, in need of assistance.
+## Description
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
+
+## Technologies
+* Javascript
+* Web API
+* CSS
+* HTML
+
